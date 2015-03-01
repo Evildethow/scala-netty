@@ -15,7 +15,8 @@ object Dependencies {
 
 object Common {
   lazy val commonSettings = Seq(
-      version := "1.0",
-      scalaVersion := "2.11.5"
+    version := "0.1-SNAPSHOT",
+    scalaVersion := "2.10.4",
+    organization := "org.evildethow"
   )
 }
